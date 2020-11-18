@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header Practise</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <h3>RAGE</h3>
+      </div>
+      <div class="nav-list" id="nav-add">
+        <ul>
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Dream</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+       
+      <div class="hamburger">
+        <a onclick="responsive_menu()"><i class="fa fa-clipboard" aria-hidden="true"></i></a>
+      </div>
+
+    </div>
+
+    <div class="land">
+      <h1>Find your Broom</h1>
+      <h3>Ping Me Please! </h3>
+      <button>FOLLOW ME</button>
+    </div>
+  </header>
+
+
+  <div class="about">
+  <h1 id="about"><span id="large">A</span>bout Me</h1>
+
+  <div class="intro">
+    <div class="image">
+      <img src="../tours/asa.jpg" alt="Abhinav" title="Kumar Abhinav">
+    </div>
+    <div class="brief">
+      <h1>Want to know where it <span>started?</span></h1>
+      <h2>All details below</h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+        a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchange.
+      </p>
+    </div>
+  </div>
+</div>
+
+  <div class="skill" id="skill">
+   <h1>Dream</h1>
+    <div class="allcard">
+   <div class="card">
+    <div class="card-img">
+      <img src="../tours/download.png" alt="React">
+    </div>
+    <div class="card-title">
+       <h4>React Js</h4>
+       <p>Simple and Unique</p>
+    </div>
+   </div>
+
+   <div class="card">
+    <div class="card-img">
+      <img src="../tours/N.png" alt="React">
+    </div>
+    <div class="card-title">
+       <h4>HTML,CSS & JS</h4>
+       <p>Intermediate Level</p>
+    </div>
+   </div>
+
+   <div class="card">
+    <div class="card-img">
+      <img src="../tours/download.png" alt="React">
+    </div>
+    <div class="card-title">
+       <h4>BOOTSTRAP</h4>
+       <p>Beginner</p>
+    </div>
+   </div>
+
+   
+   <div class="card">
+    <div class="card-img">
+      <img src="../tours/N.png" alt="React">
+    </div>
+    <div class="card-title">
+       <h4>Human Values</h4>
+       <p>Intermediate</p>
+    </div>
+   </div>
+
+  </div>
+</div>
+
+
+<div class="download">
+  <div class="headi">
+  <h1>Need My Projects or CV :)</h1>
+  </div>
+  <div class="flex">
+  <button class="project">Projects</button>
+  <button class="CV">Resume</button>
+  </div>
+</div>
+
+
+<div class="contact" id="contact">
+  <h1>Contact Me</h1>
+<form action="#">
+  <label for="namee">First Name</label>
+  <input type="text" id="namee" name="namee" placeholder="Your name..">
+
+  <label for="branch">Branch</label>
+  <input type="text" id="branch" name="branch" placeholder="Yur Branch..">
+  <label for="country">Country</label>
+  <select name="country" id="country">
+    <option value="australia">Australia</option>
+    <option value="india">India</option>
+    <option value="USA">USA</option>
+    <option value="Japan">Japan</option>
+  </select>
+
+  <input type="submit" value="SUBMIT" class="submit">
+</form>
+</div>
+
+<footer>
+  <div class="logo-left">
+    <h3>RAGE</h3>
+    <p><span>I am just Learning</span> to build things So Bear it!</p>
+  </div>
+
+  <div class="social-right">
+    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+    <i class="fa fa-instagram" aria-hidden="true"></i>
+    <i class="fa fa-telegram" aria-hidden="true"></i>
+    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+  </div>
+
+</footer>
+
+<script src="./scripts.js"></script>
+
+</body>
+</html>

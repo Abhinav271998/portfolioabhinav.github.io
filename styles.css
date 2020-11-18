@@ -1,0 +1,638 @@
+/* Global Tools */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+   scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* Global Tools */
+
+/* Navbar */
+.navbar{
+ width: 100%;
+ padding: 2rem;  
+ background-color: black;
+ height: 12vh;
+}
+
+.nav-list{
+    float: right;
+}    
+
+.nav-list ul li{
+    display: inline-block;
+}
+
+.nav-list ul li a{
+    margin: 0.6rem;
+    border: 1px solid transparent;
+     padding: 0.4rem;
+     color: white;
+     font-weight: bold;
+}
+
+.nav-list ul li a:hover{
+    border-bottom: 1px solid white;
+    color: yellow;
+    transition: 0.6s ease;
+}
+
+.navbar .nav-list .active a{
+    border-bottom: 1px solid white;
+    color: yellow;
+}
+
+.navbar .logo
+{
+    float: left;
+}
+
+.navbar .logo h3{
+    background: -webkit-linear-gradient(#66FF00, #FFFF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo h3{
+    font-size: 2rem;
+    text-transform: capitalize;
+    position: absolute;
+    top: 3.5%;
+}
+
+.logo h3:hover{
+    color: brown !important;
+    transition: 1s ease;
+}
+
+header .navbar .hamburger i{
+    color: white;
+    position: absolute;
+    top: 4.2%;
+    right: 2%;
+    visibility: hidden;
+}
+
+/* navbar complete */
+
+/* landing strikes */
+
+.land{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    background-size: cover;
+    height: 88vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.land h1,h3{
+    color: black;
+    margin-bottom: 0.7rem;
+}
+
+.land h1{
+    font-size: 3rem;
+    border-bottom: 1px solid black;
+    padding-bottom: .2rem;
+    text-transform: capitalize;
+}
+
+.land h3{
+   font-size: 2rem;
+   padding-bottom: .2rem;
+    text-transform: capitalize;
+}
+
+.land button{
+    font-weight: 600;
+    padding: 10px 30px;
+   
+    color: black;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 20px;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+.land button:hover{
+    font-weight: 600;
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+    border: 5px solid black;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+/* landing strikes over */
+
+/* intro part */
+ .about{
+    background: rgba(0,0,0,0.8);
+    padding: 2.5rem;
+ }
+.intro{
+    display: flex;
+}
+
+.intro .image{
+    width: 39.39%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+    transition: 0.6s ease;
+    border: 2px solid black;
+    margin-right: 1.5rem;
+}
+.intro .image img{
+    width: 100%;
+   padding: 1.5rem ;
+}
+
+.intro .brief
+{
+    padding: 1rem;
+    width: 700px;
+    margin-right: 40px;
+}
+
+.intro .brief h1{
+    color: white;
+    margin-bottom: 0.6rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;   
+    text-align: left;
+    word-spacing: 1px; 
+}
+.intro .brief span{
+    color: red;
+}
+.intro .brief h2{
+    color: white;
+    margin-bottom: 0.6rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;    
+    text-align: left;
+}
+
+.intro .brief p{
+    color: white;
+    text-align: justify;
+    word-spacing: 1.4px;
+    line-height: 1rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+#about{
+    text-align: center;
+    letter-spacing: 2px;
+    margin:20px;
+    padding-bottom: 2px;
+    color: white;
+    
+}
+
+.about h1 #large {
+    font-size: 4rem;
+    border-bottom: 1px solid black;
+    color: red;
+}
+.container{
+    background-color: ;
+}    
+/* intro part over */
+
+/* Skills Section start */
+
+.skill{
+
+    height: 70vh;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+     /*background-color: #FFFFFF;
+    background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);*/
+}
+.skill h1{
+    padding: 2rem 0;
+    text-align: center;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.allcard{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.card{
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+    transition: 0.6s ease;
+  }
+
+.allcard .card{
+   border: 3px solid black;
+}
+
+.allcard .card .card-img img{
+   width: 100%;
+   margin: 0;
+}
+
+.allcard .card .card-title{
+    padding: 30px 50px;
+    background-color: white;
+    margin-top: -4px;
+    border-top: 3px solid black;
+}
+
+.card .card-title h4{
+    text-align: center;
+    font-size: 1.1rem;
+    text-transform: capitalize !important;
+    margin-bottom: 1.5px;
+    text-decoration: underline;
+}
+.card .card-title p{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* skills section part over */
+
+/* Download CV here */
+
+.download
+{
+    margin: auto;
+    width: 100%;
+    height: 40vh;
+    background: rgba(0,0,0,0.8);
+    position: relative;
+}
+
+.download h1{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    color: white;
+}
+
+.download .flex{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download .CV{
+    font-weight: 600;
+    padding: 10px 30px;
+   margin-top: 2rem;
+    color: black;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 14px;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+.download .CV:hover{
+    font-weight: 600;
+    padding: 10px 30px;
+   margin-top: 2rem;
+    color: white;
+    background-color: black;
+    border: 5px solid black;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+.download .project{
+   margin-right: 1.5rem;
+   font-weight: 600;
+    padding: 10px 30px;
+    margin-top: 2rem;
+    color: black;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 14px;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+.download .project:hover{
+    font-weight: 600;
+    padding: 10px 30px;
+   margin-top: 2rem;
+    color: white;
+    background-color: black;
+    border: 5px solid black;
+    transition: 0.6s ease;
+    cursor: pointer;
+}
+
+
+
+/* download section over */
+
+/* contact section start */
+
+form{
+    width: 70%;
+    margin:auto;
+}
+label{
+    display: block;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+      display: block;
+    width: 20%;
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    border: 6px solid black;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+    color: white;
+    transition: 0.6s ease;
+    font-weight: bolder;
+  }
+  .contact h1{
+      text-align: center;
+  }
+  .contact {
+    border-radius: 5px;
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+    padding: 20px;
+  }
+
+
+/*contact form over */
+
+footer{
+    height: 23vh;
+    background: rgba(0,0,0,0.8);
+}
+
+footer .logo-left{
+    margin: 3rem 2rem;
+    float: left;
+}
+
+footer .logo-left h3{
+    font-size: 1.6rem;
+    margin-bottom: 2px;
+    background: -webkit-linear-gradient(#66FF00, #FFFF00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer .logo-left p{
+    color: white;
+}
+
+footer .logo-left p span{
+    color: #21D4FD;
+}
+
+footer .social-right{
+    float: right;
+}
+
+footer .social-right{
+    margin : 3.5rem 4rem;
+}
+
+footer .social-right i{
+    margin-right: 5px;
+    font-size: 35px;
+}
+
+footer .social-right .fa-facebook-official{
+    color: skyblue;
+}
+
+footer .social-right .fa-instagram{
+   color: red;
+}
+
+footer .social-right .fa-telegram{
+  color: skyblue;
+}
+
+footer .social-right .fa-youtube-play{
+ color: red;
+}
+
+/* All Media Properties */
+
+@media ( max-width : 700px) and (min-width : 100px)
+{
+    .nav-list{
+        visibility: hidden;
+    }
+    
+    .info{
+        visibility: visible !important;
+        position: absolute;
+        background-color: black;
+        width: 70%;
+        right: 0%;
+        height: 50vh;
+        z-index: 1;
+        margin-top: 45px ;
+    }
+    
+     .info ul li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .navbar .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .navbar .hamburger i{
+      visibility: visible;
+    }
+
+    header .navbar .hamburger i:hover{
+         transform: rotate(360deg);
+         transition: 2s ease;
+    }
+
+    .land{
+        height: 60vh;
+    }
+
+    .land h1{
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    .land h3{
+        font-size: 1.4rem;
+    }
+    .land button{
+        width: 20%;
+        padding: 2px;
+        font-size: 10px;
+    }
+    
+    .land button:hover{
+        width: 20%;
+        padding: 2px;
+        font-size: 10px;  
+    }
+
+    .about .intro{
+        display: block;
+        width: 100%;
+        transition: 0.6s ease;
+    }
+
+    .about .intro .image{
+        height: 40vh;
+        width: 100%;
+        transition: 0.6s ease;
+        margin-bottom: 20px;
+    }
+
+    .about .intro .image img{
+        height: 100%;
+        width: 100%;
+        transition: 0.6s ease;
+    }
+    
+    .about .intro .brief{
+        display: inline-block;
+        width: 100%;
+        transition: 0.6s ease;
+    }
+
+    .about .intro .brief h1{
+        font-size: 1.3rem;
+    }
+
+    .about .intro .brief h2{
+        font-size: 1rem;
+        color: red;
+    }
+
+    .about .intro .brief p{
+        font-size: 0.8rem;
+    }
+
+
+    .skill{
+        height: 100%;
+    }
+
+    .allcard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .allcard .card{
+        margin-bottom: 2rem;
+    }
+ 
+    .download{
+       height: 50vh;
+       width: 100%;
+       position: relative;
+    }
+
+    .download .headi {
+        width: 100%;
+    }
+
+    .download .headi h1{
+        font-size: 1.5rem;
+        text-align: left !important;
+        margin-left: -80px;
+    }
+    .download .flex .project{
+        margin-top: 6rem !important;
+    }
+
+    .download .flex .CV{
+        margin-top: 6rem;
+    }
+     
+     .contact .submit{
+         width: 30%;
+        margin: 0;
+        padding: 0;
+
+     }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .logo-left{
+        margin-bottom: -20px;
+    }
+
+
+@media (max-width : 340px)
+{
+    .land button{
+        width: 30%;
+    }
+    .land button:hover{
+        width: 20%;
+        padding: 10px;
+        font-size: 10px;  
+    }
+}
